@@ -1,0 +1,91 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    background: whitesmoke;
+    height: 100vh;
+}
+.d1{
+    height: 80%;
+    background-size: cover;
+    animation: image 7s ease-in-out infinite both;
+    box-sizing: content-box;
+    position: relative;
+}
+@keyframes image{
+    0%{
+        background: url(../img/koi-888264_1920.jpg) center;
+        background-size: cover;
+    }
+    33.33%{
+        background: url(../img/s2.png) center;
+        background-size: cover;
+    }
+    66.67%{
+        background: url(../img/residence-2219972_1920.jpg) center;
+        background-size: cover;
+    }
+    100%{
+        background: url(../img/s2.png) center;
+        background-size: cover;
+    }
+}
+.d1:hover{
+    animation-play-state: paused;
+}
+.over{
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+}
+.services{
+    position: relative;
+    z-index: 1000;
+    top:-150px;
+    border-radius: 10px;
+}
+.text{
+    position:relative;
+    width: 500px;
+    top:30%;
+    margin:0 auto;
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.logo{
+    width: 90px;
+    height:90px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    transition: all ease-in-out 0.5s;
+    margin-bottom: 25px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card::after{
+    content:"";
+    width:0;
+    transition: all ease-in-out 0.5s;
+}
+.card:hover::after{
+     content:"";
+     width: 50%;
+     height: 2px;
+     background: orange;
+}
+.logo{
+    height: 130px;
+    width: 130x;
+}

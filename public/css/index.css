@@ -1,0 +1,206 @@
+*{
+	box-sizing: border-box;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	height:100vh;
+}
+.backcolor{
+	background:transparent;
+}
+#nav{
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+	background: whitesmoke;
+	color:black;
+}
+#nav li{
+	color: black;
+}
+.after{
+	margin-bottom: 5px;
+}
+.after::after{
+	width: 50%;
+	height: 2px;
+	content: "";
+	background: #82b1ff!important;
+	display: block;
+}
+.card{
+	box-shadow: inset 0 0 1em  0 0 2em silver;
+	width: 25%;
+	font-size:1em;
+}
+.card-title{
+	font-size: 1em;
+}
+#fond0{
+	background: center no-repeat fixed;
+	background-size:cover;
+	background-color:whitesmoke;
+	height: 100%;
+	padding:0;
+	color: black;
+}
+.logo{
+	width:50px;
+	height: 50px;
+	border-radius: 150px;
+	background: white;
+}
+#fond1
+{
+	background: url('/img/airport-2373727_1920.jpg') center center no-repeat fixed;
+	background-size:cover;
+	color: white;
+	height: 100%;
+	padding:0;
+}
+.overlay 
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.overlay1
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.459);
+}
+.overlay .title {
+	letter-spacing: 0.2em;
+	transform: translate(0,80px);
+}
+.overlay1 .title1{
+	letter-spacing: 0.2em;
+	transform: translate(0,300px);
+	font-size: 3em;
+}
+.overlay .title1 {
+	letter-spacing: 0.3em;
+	transform: translate(0,200px);
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.overlay1 p{
+	transform: translate(0,200px);
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.overlay .title0{
+	animation: text 3s 1;
+}
+@keyframes text{
+	0%{
+		color: black;
+	}
+	30%{
+		letter-spacing: 0.5em;
+	}
+	85%{
+		letter-spacing: 0.3em;
+	}
+}
+.overlay a {
+	border-radius:50px;
+}
+.overlay1 a
+{
+	width: 250px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius:50px;
+	transform: translate(0,400px);
+	display: block;
+	opacity: 1;
+	text-transform: capitalize;
+	background: #82b1ff!important;
+}
+.overlay div button{
+	background-color: #FF9800;
+	border-radius: 100px;
+	color:white;
+}
+.overlay .logo{
+	transform: translate(0,300px)
+}
+.overlay .services{
+	transform: translate(0,450px)
+}
+#fond2
+{
+	background: url('/img/fish-farming-976294_1920.jpg') center no-repeat fixed ;
+	background-size:cover;
+	color: white;
+	height: 100%;
+	padding:0;
+}
+#fond3
+{
+	background: url('/img/apple-606761_1920.jpg') center no-repeat fixed;
+	background-size:cover;
+	color: white;
+	height: 100%;
+	padding:0;
+}
+#fond4
+{
+	background: url('/img/new-england-1336173_1920.jpg') center center no-repeat fixed;
+	background-size:cover;
+	color: white;
+	height: 100%;
+	padding:0;
+}
+#fond5{
+	background: center no-repeat fixed;
+	background-size:cover;
+	background-color:whitesmoke;
+	color: white;
+	height: 100%;
+	padding:0;
+}
+#button {
+background: #82b1ff!important;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition:all ease-in-out .5s;
+  z-index: 1000;
+  font-size: 2em;
+  line-height: 50px;
+  color: white;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+ display: none ;
+ border-radius: 100px;
+}
+#button:hover , .down:hover {
+  cursor: pointer;
+  background-color: #333;
+  color:white;
+}
+#button:active , .down:hover {
+  background-color: #555;
+  color:white;
+}
+.copy{
+position: absolute;
+bottom:50%;
+left: 45%;
+text-transform: initial;
+}
+

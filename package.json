@@ -1,0 +1,27 @@
+{
+  "name": "lauvin",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lauvin "
+  },
+  "author": "nicolas assan",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
